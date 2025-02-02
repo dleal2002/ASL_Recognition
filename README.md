@@ -23,6 +23,16 @@ Within jupyter notebook, write the following:
 
 Start collecting pictures of the signs placed in the array “label”
 
-Open up the “labelImg” program downloaded from above. 
+Open up the “labelImg” program downloaded from above by ding the following:
+(Running labelImg)
+STEP1:
+cd "C:\Users\halo2\RealTimeObjectDetection\labelapp\Tensorflow\labelimgdown"
+
+STEP2:
+pyrcc5 -o libs/resources.py resources.qrc
+
+STEP3:
+python labelImg.py
+
 
 Once all the pictures are collected...
